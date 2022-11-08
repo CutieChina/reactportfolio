@@ -1,25 +1,22 @@
-import React from "react";
+// import uniqid from 'uniqid'
+import { aboutport } from './aboutport.js'
+import ProjectContainer from './ProjectContainer'
+import './Projects.css'
 
 const About = () => {
-return (
-	<div>
-	<h1>
-		Title
-	</h1>
+  if (!aboutport.length) return null
 
-	
-	</div>
-);
-};
+  return (
+    <section id='projects' className='section projects'>
+      <h2 className='section__title'>Projects</h2>
 
+      <div className='projects__grid'>
+        {aboutport.map((project) => (
+          <ProjectContainer  project={project} />
+        ))}
+      </div>
+    </section>
+  )
+}
 
-
-// let Image = () => {
-// 	return (
-// 		<div>
-// 			<a href="www.google.com" id="x"><img src="images/test.png" /></a>
-// 		</div>
-// 	)
-// }
-
-export default About;
+export default About

@@ -11,6 +11,6 @@ const Blogstext = () => {
 		</h3>
 	</div>
   );
-  };
+};
 
   export default Blogstext
