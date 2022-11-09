@@ -15,7 +15,9 @@ const ProjectContainer = ({ project }) => (
         //     {item}
         //   </li>
         <li>
-            bla
+            
+<a href="url">Learn More</a>
+
         </li>
         ))}
       </ul>

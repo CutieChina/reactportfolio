@@ -25,14 +25,19 @@ const Blogs = () => {
     const todo = localStorage.getItem("todo");
     setData(JSON.parse(todo));
   }, []);
-  const addTodo = () => {
+
+  const addTodo = async () => {
     const list = {
       id: uuid(),
       todo: input,
     };
+
     data.push(list);
     localStorage.setItem("todo", JSON.stringify(data));
     setInput("");
+
+    let foo = await fetch("http://localhost:3001/db");
+    console.log(foo);
   };
 
   const Delete = (id) => {
@@ -40,6 +45,7 @@ const Blogs = () => {
     setData(deleted);
     localStorage.setItem("todo", JSON.stringify(data));
   };
+
   return (
     <div>
       <div class="container">

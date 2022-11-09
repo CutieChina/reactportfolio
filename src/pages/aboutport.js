@@ -3,7 +3,15 @@ const aboutport = [
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
     {
-      name: 'Project 1',
+      name: 'ABSTRACT',
+      description:
+        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      stack: ['SASS', 'TypeScript', 'React'],
+      sourceCode: 'https://github.com',
+      livePreview: '',
+    },
+    {
+      name: 'POP',
       description:
         'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
       stack: ['SASS', 'TypeScript', 'React'],
@@ -11,7 +19,7 @@ const aboutport = [
       livePreview: 'https://github.com',
     },
     {
-      name: 'Project 2',
+      name: 'SKETCH',
       description:
         'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
       stack: ['SASS', 'TypeScript', 'React'],
@@ -19,13 +27,29 @@ const aboutport = [
       livePreview: 'https://github.com',
     },
     {
-      name: 'Project 3',
-      description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
-    },
+        name: 'WATERCOLOR',
+        description:
+          'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+        stack: ['SASS', 'TypeScript', 'React'],
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+      },
+      {
+        name: 'ACRYLIC',
+        description:
+          'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+        stack: ['SASS', 'TypeScript', 'React'],
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+      },
+      {
+        name: 'PASTEL',
+        description:
+          'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+        stack: ['SASS', 'TypeScript', 'React'],
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+      },
   ]
 
   export {aboutport}

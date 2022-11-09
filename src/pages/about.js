@@ -8,7 +8,7 @@ const About = () => {
 
   return (
     <section id='projects' className='section projects'>
-      <h2 className='section__title'>Projects</h2>
+      <h2 className='section__title'>Art Pieces</h2>
 
       <div className='projects__grid'>
         {aboutport.map((project) => (
