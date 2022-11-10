@@ -8,13 +8,13 @@ return (
 	<Nav>
 		<NavMenu>
 		<NavLink to="/about" activeStyle>
-			About
+			Home
 		</NavLink>
 		<NavLink to="/contact" activeStyle>
-			Contact Us
+			Info
 		</NavLink>
 		<NavLink to="/blogs" activeStyle>
-			Blogs
+			Review
 		</NavLink>
 		</NavMenu>
 	</Nav>

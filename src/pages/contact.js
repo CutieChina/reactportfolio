@@ -107,7 +107,7 @@ function Contact() {
           <ul>
             <li>
             <img src=
-"https://cdn.dribbble.com/users/662463/screenshots/3417042/woman_clapping.gif" />
+"https://wallpapercave.com/wp/wp2864012.gif" />
             </li>
           </ul>
 
@@ -115,8 +115,7 @@ function Contact() {
               <div class="box-main">
                   <div class="firstHalf">
                       <h1 class="text-big">
-                          7 Best Tips To Speed Up Your 
-                          Job Search in 2022
+                          Why Art?
                       </h1>
                       <p class="text-small">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -139,7 +138,7 @@ function Contact() {
               <div class="box-main">
                   <div class="secondHalf">
                       <h1 class="text-big" id="program">
-                          JavaScript Tutorial
+                      How To Get Into Art?
                       </h1>
                       <p class="text-small">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -158,7 +157,7 @@ function Contact() {
               <div class="box-main">
                   <div class="secondHalf">
                       <h1 class="text-big" id="program">
-                          Java Programming Language
+                          Different Techniques
                       </h1>
                       <p class="text-small">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -177,7 +176,7 @@ function Contact() {
               <div class="box-main">
                   <div class="secondHalf">
                       <h1 class="text-big" id="program">
-                          What is Machine Learning?
+                          How to get started?
                       </h1>
                       <p class="text-small">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
