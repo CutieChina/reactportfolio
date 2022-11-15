@@ -7,13 +7,13 @@ return (
 	<>
 	<Nav>
 		<NavMenu>
-		<NavLink to="/about" activeStyle>
+		<NavLink to="/homepage" activeStyle>
 			Home
 		</NavLink>
-		<NavLink to="/contact" activeStyle>
+		<NavLink to="/info" activeStyle>
 			Info
 		</NavLink>
-		<NavLink to="/blogs" activeStyle>
+		<NavLink to="/review" activeStyle>
 			Review
 		</NavLink>
 		</NavMenu>

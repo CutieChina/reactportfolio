@@ -3,21 +3,11 @@ import './blogstext.js';
 import './blogs.css';
 
 
-  
-// const Blogs = () => {
-//   return (
-//     <div>
-//       <h1> bla bla</h1>
-//     </div>
-//   );
-//   };
-
-
 import React, { useEffect, useState } from "react";
 import { v4 as uuid } from "uuid";
 import './blogs.css';
 
-const Blogs = () => {
+const Review = () => {
   const [input, setInput] = useState("");
   const [data, setData] = useState([]);
 
@@ -37,7 +27,8 @@ const Blogs = () => {
     setInput("");
 
     let foo = await fetch("http://localhost:3001/db");
-    console.log(foo);
+    let data = await foo.json()
+    console.log(data);
   };
 
   const Delete = (id) => {
@@ -78,4 +69,4 @@ const Blogs = () => {
 };
 
   
-export default Blogs;
+export default Review;
