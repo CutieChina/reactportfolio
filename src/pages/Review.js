@@ -1,8 +1,6 @@
 // import React from 'react';
 import './blogstext.js';
 import './blogs.css';
-
-
 import React, { useEffect, useState } from "react";
 import { v4 as uuid } from "uuid";
 import './blogs.css';
@@ -27,8 +25,9 @@ const Review = () => {
     setInput("");
 
     let foo = await fetch("http://localhost:3001/db");
-    let data = await foo.json()
-    console.log(data);
+    let bar = await foo.json();
+    console.log(bar);
+    
   };
 
   const Delete = (id) => {
@@ -36,6 +35,29 @@ const Review = () => {
     setData(deleted);
     localStorage.setItem("todo", JSON.stringify(data));
   };
+
+
+  const Edit = (id) => {
+    console.log(data)
+    const edited = data.find((item) => item.id === id);
+    edited.todo = input
+    setData(data.map(item => ({...item})));
+    localStorage.setItem("todo", JSON.stringify(data));
+  };
+
+  // function Edit(liTag) {
+  //   let liContent = liTag.querySelector("span");
+  
+  //   let input = document.createElement("input");
+  //   input.type = "text";
+  //   input.value = liContent.textContent;
+  //   liTag.append(input);
+  //   input.focus();
+  //   input.addEventListener("blur", () => {
+  //     liContent.innerHTML = input.value;
+  //     input.remove();
+  //   });
+  // }
 
   return (
     <div>
@@ -57,6 +79,9 @@ const Review = () => {
             <li>
               <label>{item?.todo}</label>
               <input type="text" />
+              <button class="edit" onClick={() => Edit(item?.id)}>
+                Edit
+              </button>
               <button class="delete" onClick={() => Delete(item?.id)}>
                 Delete
               </button>

@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+Resoures:
+- https://reactjsexample.com/a-sort-simple-and-easy-to-modifiable-react-portfolio/
+- https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/
+- https://www.blog.duomly.com/9-react-js-projects-for-beginners-that-will-help-you-to-build-an-amazing-portfolio-and-get-hired/
+-https://reactjsexample.com/a-simple-developer-portfolio-page-with-react/
+-https://dev.to/justinnn07/build-a-todo-list-app-with-react-js-for-beginners-f7g
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NPM:
+-axios
+-react
+- and more
 
-## Available Scripts
+What I used:
+- Heroku
+- Postman
+- Mongodb
+- and more
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Quick project description:
+This is an art display app.The intention of this app is that the user is able to display there art is whatever category they choose that best fits they're art type. The Home page is where the user chooses which art type they're going to display their art or they can view others art. The Info section is where the user can find more information about art supplies, how to start, etc. The Review section and where the user can leave comments. They can share tips, helpful criticism, and more.
 
-### `npm test`
+How to use the Home page:
+- Make sure you click the Home tab on the Navbar 
+- Then you'll see six options of art you could choose from
+- Then click the link to go into the art display page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ (Right now the links are inactive)
 
-### `npm run build`
+How to use the Info Page:
+- Make sure to click the Info tab
+- The page should display common questions that people may have about getting started with art.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+How to use the Review Page:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Adding a comment:
+- Click the input box
+- Type your comment
+- The press add
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Editing a comment:
+ - Click the input box
+ - Find your comment that you are trying to edit
+ - Then press edit
 
-### `npm run eject`
+ Deleting a comment:
+ -Find your comment
+ - Press delete
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The (2) media queries:
+- resizing (screen should adjust to laptop, phone, or tablet)
+- Dark mode (acreen should adjust to the laptop being in dark mode)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+(3) features of the app:
+- Analyze data that is stored in arrays, objects, sets or maps and display information about it in your app.
+- Use arrays, objects, sets or maps to store and retrieve information that is displayed in your app.
+- Develop your project using a common JavaScript framework: React.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+API feature:
+-n- Create a form and store the submitted values using an external API: The Review page.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*It's currently a draft.* I hope you like my app! :D

@@ -24,9 +24,40 @@
   color: white;
 }
 
-body {
-  background-color: #282c34;
-}
+ 
+  /* Landscape phones and down */
+  @media (max-width: 480px) { 
+    .console-container {
+        font-size: 2em;
+    }
+  
+    nav > ul {
+      flex-direction: column;
+    }
+  
+    .pfp > img {
+      height: 120px;
+      width: 120px;
+    }
+  } 
+    
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { 
+    
+    
+     }
+    
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) { 
+    
+    
+     }
+    
+    /* Large desktop */
+    @media (min-width: 1200px) { 
+    
+    
+     }
 
 /* .App-link {
   color: #61dafb;
