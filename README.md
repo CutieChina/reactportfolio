@@ -67,7 +67,7 @@ API feature:
 
 Dark mode:
 
-<img src="img\dark mode.png" height="60" width="60" >
+<img src="img\dark mode.png" height="60" width="60"  >
 
 Light mode:
 
