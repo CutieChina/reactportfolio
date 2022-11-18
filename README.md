@@ -63,4 +63,12 @@ The (2) media queries:
 API feature:
 -n- Create a form and store the submitted values using an external API: The Review page.
 
+
+Dark mode:
+<img src="img\dark mode.png" height="60" width="60" >
+
+Light mode:
+
+<img src="img\light mode.png" height="60" width="60" >
+
 *It's currently a draft.* I hope you like my app! :D
