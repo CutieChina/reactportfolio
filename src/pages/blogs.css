@@ -187,4 +187,11 @@ ul li.editMode label {
  ul {
 	background-color: goldenrod;
  }
+
+ @media (hover: hover) {
+	body {
+	  color: rebeccapurple;
+	}
+  }
+  
 }

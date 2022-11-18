@@ -69,6 +69,13 @@
       ul {
         background-color: goldenrod;
       }
+      
+      @media (hover: hover) {
+        body {
+          color: rebeccapurple;
+        }
+      }
+      
      }
 
 /* .App-link {

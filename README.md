@@ -50,9 +50,10 @@ Editing a comment:
  - Press delete
 
 
-The (2) media queries:
+The (3) media queries:
 - resizing (screen should adjust to laptop, phone, or tablet)
 - Dark mode (acreen should adjust to the laptop being in dark mode)
+- Hover (Go to home page while in DARK MODE and hover mouse over the options. SHould go from purple to goldenrod color)
 
 
 (3) features of the app:
