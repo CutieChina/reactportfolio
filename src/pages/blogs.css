@@ -158,3 +158,33 @@ ul li.editMode input[type=text] {
 ul li.editMode label {
 	display: none;
 }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    
+    
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+
+}
+
+@media screen and (prefers-color-scheme: dark)
+{
+ body{
+   color: white;
+   background-color: black;
+ }
+ 
+ ul {
+	background-color: goldenrod;
+ }
+}

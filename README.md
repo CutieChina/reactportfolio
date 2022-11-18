@@ -54,6 +54,7 @@ The (2) media queries:
 - resizing (screen should adjust to laptop, phone, or tablet)
 - Dark mode (acreen should adjust to the laptop being in dark mode)
 
+
 (3) features of the app:
 - Analyze data that is stored in arrays, objects, sets or maps and display information about it in your app.
 - Use arrays, objects, sets or maps to store and retrieve information that is displayed in your app.

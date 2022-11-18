@@ -38,13 +38,18 @@ const Review = () => {
 
 
   const Edit = (id) => {
-    console.log(data)
     const edited = data.find((item) => item.id === id);
     edited.todo = input
     setData(data.map(item => ({...item})));
     localStorage.setItem("todo", JSON.stringify(data));
+    
   };
 
+  // async function deleteEntry() {
+  //   if (activeEntry._id) {
+  //       await fetch(`/entry/${activeEntry._id}`, {
+  //           method: 'DELETE'
+  //       })
   // function Edit(liTag) {
   //   let liContent = liTag.querySelector("span");
   

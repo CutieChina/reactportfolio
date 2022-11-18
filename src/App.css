@@ -59,6 +59,18 @@
     
      }
 
+     @media screen and (prefers-color-scheme: dark)
+     {
+      body{
+        color: white;
+        background-color: black;
+      }
+      
+      ul {
+        background-color: goldenrod;
+      }
+     }
+
 /* .App-link {
   color: #61dafb;
 }
